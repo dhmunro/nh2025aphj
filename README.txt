@@ -53,3 +53,51 @@ serves as a record of how we arrived at the numbers used in the article.
 The software required to run the notebook consists of jupyter, ipython with its
 standard libraries including numpy, scipy, and matplotlib as obtained from
 https://www.anaconda.com/download in November of 2024, based on python 3.12.2.
+
+---------------
+
+This repo also contains six images of Proxima Cen and six images of Wolf 359
+used in the paper which were taken by the LORRI imager on New Horizons.  Note
+that not all LORRI images obtained were used or are included here.  The shortest
+LORRI exposures obtained at each epoch and the deep images, which were obtained
+in the first epoch are not included, but are available in the Planetary Data
+System image archive.
+
+Also included are the Earth based images of Proxima Cen and Wolf 359 used for
+the parallax study presented in section 2 of the paper.  Together, these
+fourteeen images represent all the raw data used in the paper.
+
+****** PLEASE NOTE *******
+While all image headers have roughly calibrated celestial coordinates, these
+parameters WERE NOT USED in Lauer et al. (2025).  Lauer et al. recalibrated the
+astrometry from Gaia DR3 positions for stars in the fields.  See the python
+notebook nhparallax.ipynb for the recalibrated positions.  The specific
+algorithms and stars used for this recalibration are not included here;
+uncertainties with this procedure are discussed in the paper.
+**************************
+
+New Horizons LORRI images of Proxima Centauri first epoch
+lor_0449855930_0x633_pwcs2.fits
+lor_0449855931_0x633_pwcs2.fits
+lor_0449855932_0x633_pwcs2.fits
+
+New Horizons LORRI images of Proxima Centauri second epoch
+lor_0449913531_0x633_pwcs2.fits
+lor_0449913532_0x633_pwcs2.fits
+lor_0449913533_0x633_pwcs2.fits
+
+New Horizons LORRI images of Wolf 359 first epoch
+lor_0449933827_0x633_pwcs2.fits
+lor_0449933832_0x633_pwcs2.fits
+lor_0449933837_0x633_pwcs2.fits
+
+New Horizons LORRI images of Wolf 359 second epoch
+lor_0449955456_0x633_pwcs2.fits
+lor_0449955461_0x633_pwcs2.fits
+lor_0449955466_0x633_pwcs2.fits
+
+First Epoch Earth-based image of Proxima Centauri field
+lco_prox_20200422-0332.fits
+
+First Epoch Earth-based image of Wolf 359 field
+wolf359_20200423_ULMT_rp_00000123_d_cw.fits
